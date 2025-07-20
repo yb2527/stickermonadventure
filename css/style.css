@@ -172,3 +172,107 @@ header{
     border-color: rgb(103, 161, 213) !important;
     background-color: rgb(103, 161, 213);
 }
+
+
+
+/* 전곡 소트 */
+#mainTable {
+    font-size: larger;
+    text-align: center;
+    vertical-align: middle;
+    width: 410px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    border-spacing: 10px 5px;
+}
+
+#leftField {
+    width: 120px;
+    height: 150px;
+    border: 1px solid #463A00;
+}
+
+#rightField {
+    width: 120px;
+    height: 150px;
+    border: 1px solid #463A00;
+}
+
+A {
+    text-decoration : none;
+    color: #A697CE;
+}
+
+a:hover {
+    color:#A697CE;
+}
+
+.nanum-text table,
+.nanum-text #mainTable,
+.nanum-text #mainTable td {
+    font-family: 'NanumSquare', sans-serif;
+    color: #463A00;
+}
+
+.result-table {
+    width: 200px;
+    line-height: 120%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border: 1px solid #463A00;
+    font-family: 'NanumSquare', sans-serif;
+    font-size: 1.1em;
+    color: #463A00;
+    margin-top: 50px;
+}
+
+.result-table th,
+.result-table td {
+    font-family: 'NanumSquare', sans-serif;
+    border: 1px solid #463A00;
+    padding: 5px;
+    text-align: center;
+}
+
+.result-table th {
+    font-family: 'NanumSquare', sans-serif;
+    color: #edf5f8;
+    background-color: #463A00;
+    text-align: center;
+    font-weight: normal;
+}
+
+.result-table td:first-child {
+    text-align: center;
+}
+
+
+
+/* 전곡 소트 플로팅 버튼 */
+.floating-button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #A697CE;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 3000;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+    white-space: nowrap;
+}
+
+.floating-button:hover {
+    background-color: #8C7BBF;
+    color: white;
+}
+
+.floating-button.parkdahyun-font {
+    font-family: 'Ownglyph_ParkDaHyun', serif;
+    color: white;
+}
